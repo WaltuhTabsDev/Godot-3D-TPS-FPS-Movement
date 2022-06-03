@@ -44,6 +44,3 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5 )
 [node name="CamCollider" type="RayCast" parent="Pivot"]
 enabled = true
 cast_to = Vector3( 0, 0, 8 )
-
-[node name="Portal" type="Portal" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.421253, 0 )
