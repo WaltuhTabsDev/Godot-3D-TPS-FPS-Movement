@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Asstes/Objects/Table.gltf" type="PackedScene" id=1]
+
+[sub_resource type="BoxShape" id=1]
+extents = Vector3( 1.33977, 1.62559, 2.27616 )
+
+[node name="Table" type="Spatial"]
+
+[node name="Table" parent="." instance=ExtResource( 1 )]
+
+[node name="StaticBody" type="StaticBody" parent="Table"]
+
+[node name="CollisionShape" type="CollisionShape" parent="Table/StaticBody"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.53061, 1.13598, -5.41229 )
+shape = SubResource( 1 )

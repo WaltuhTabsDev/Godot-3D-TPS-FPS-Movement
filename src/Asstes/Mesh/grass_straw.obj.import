@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/grass_straw.obj-bdc89f46ab86c410bdeee7a369286e82.mesh"
+
+[deps]
+
+files=[ "res://.import/grass_straw.obj-bdc89f46ab86c410bdeee7a369286e82.mesh" ]
+
+source_file="res://Asstes/Mesh/grass_straw.obj"
+dest_files=[ "res://.import/grass_straw.obj-bdc89f46ab86c410bdeee7a369286e82.mesh", "res://.import/grass_straw.obj-bdc89f46ab86c410bdeee7a369286e82.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286
